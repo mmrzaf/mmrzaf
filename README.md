@@ -1,128 +1,124 @@
-# Mohammadreza Farkhondeh
-
-Software developer with expertise in systems programming, web development, and data science. This profile showcases a diverse range of projects spanning low-level libraries, cloud-native applications, machine learning tools, and scientific computing.
+# Projects
 
 ---
 
 ## Main Projects
 
 ### [CryptoPilot](https://github.com/mmrzaf/cryptopilot)
-A modular CLI platform for cryptocurrency market analysis featuring personalized portfolio insights and AI-powered reporting. Built in Python with a focus on extensibility and real-time data processing.
+
+CLI platform for cryptocurrency market analysis, portfolio insights, and reporting. Written in Python with a modular design for data pipelines, strategies, and outputs. ([GitHub][1])
+
+### [LedgerOne](https://github.com/mmrzaf/ledgerone)
+
+Ledger and accounting engine for digital assets, focused on clear balances, transaction history, and portfolio views. Built with Flutter as a mobile-first application.
+
+### [Stratum](https://github.com/mmrzaf/stratum)
+
+Python interface library for building LLM-powered systems and pipelines, with a focus on type safety and clean separation between model calls, tools, and orchestration. ([GitHub][2])
 
 ### [Elrun](https://github.com/mmrzaf/elrun)
-A single-binary CLI tool written in Go for fast, reliable data transfers between heterogeneous data sources. Designed to be portable and dependency-free while maintaining high performance.
 
-### [Graphene](https://github.com/mmrzaf/graphene)
-A lightweight, robust C library for graph representation and manipulation. Provides efficient data structures and algorithms for graph-based computations with minimal memory overhead.
-
-### [Backgrounder](https://github.com/mmrzaf/backgrounder)
-An asynchronous background job system designed for Python and ML services. Handles task queuing, scheduling, and execution with support for distributed workloads.
-
-### [FluxBench](https://github.com/mmrzaf/flux-bench)
-A browser-based sandbox demonstrating Advection-Dispersion-Reaction (ADR) equations. Built in Rust and compiled to WebAssembly for interactive scientific visualization.
+Single-binary CLI written in Go for fast, reliable data transfers between databases, files, and object storage. Designed to be portable and dependency-light while handling real workloads. ([GitHub][1])
 
 ---
 
-## AI and LLM Tools
+## Blockchain, Trading, and Ledgers
 
-| Project | Description | Language |
-|---------|-------------|----------|
-| [Stratum](https://github.com/mmrzaf/stratum) | Python interface library for building LLM applications | Python |
-| [Locutus](https://github.com/mmrzaf/locutus) | LLM workspace with local-first retrieval and provider-agnostic adapters | - |
-| [Neuron](https://github.com/mmrzaf/Neuron) | Compiled, differentiable, tensor-native language for AI development | - |
+| Project                                              | Description                                                                                | Language |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------------------ | -------- |
+| [CryptoPilot](https://github.com/mmrzaf/cryptopilot) | Modular CLI for market data, portfolio analysis, and reporting in crypto markets           | Python   |
+| [LedgerOne](https://github.com/mmrzaf/ledgerone)     | Ledger and accounting engine for digital assets, built as a mobile-first app using Flutter | Flutter  |
+| [Blockchain](https://github.com/mmrzaf/Blockchain)   | From-scratch blockchain implementation exploring blocks, transactions, and basic consensus | Python   |
+
+---
+
+## AI, LLMs, and Agents
+
+| Project                                                          | Description                                                                                                  | Language    |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ----------- |
+| [Stratum](https://github.com/mmrzaf/stratum)                     | Typed-first interface library for building LLM applications, tools, and workflows                            | Python      |
+| [Locutus](https://github.com/mmrzaf/locutus)                     | LLM workspace with local-first retrieval and provider-agnostic adapters, designed as “one brain, many faces” | Python      |
+| [Neuron](https://github.com/mmrzaf/Neuron)                       | Experimental compiled, differentiable, tensor-native language for AI development                             | Mixed / DSL |
+| [traffic_graph_GNN](https://github.com/mmrzaf/traffic_graph_GNN) | Graph neural network experiments for traffic and road-network data                                           | Python      |
+
+---
 
 ## Scientific Computing and Simulations
 
-| Project | Description | Language |
-|---------|-------------|----------|
-| [FluidSim](https://github.com/mmrzaf/FluidSim) | 2D fluid simulation implemented in Rust, compiled to WebAssembly using Yew | Rust |
-| [feaplusplus](https://github.com/mmrzaf/feaplusplus) | High-performance Finite Element Analysis library for structural mechanics | C++ |
-| [ConcretePlayground](https://github.com/mmrzaf/ConcretePlayground) | Web app predicting concrete compressive strength using TensorFlow.js | Python |
-
-## Web and Backend Development
-
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [TransportationPlatform](https://github.com/mmrzaf/TransportationPlatform) | Microservices platform with locations (Go+MongoDB+Kafka), trips (FastAPI+PostgreSQL), notifications (Node.js), and users (Django) | Go, Python, Node.js |
-| [eCommerce](https://github.com/mmrzaf/eCommerce) | Full-stack e-commerce solution with Django REST, Celery, RabbitMQ, and React | Python, React |
-| [social_media](https://github.com/mmrzaf/social_media) | Social media backend with Django REST, Go WebSocket server, and ML features | Python, Go |
-| [api-fastapi-microservice](https://github.com/mmrzaf/api-fastapi-microservice) | FastAPI microservice template | Python |
-| [fastapi-sqlalchemy-jwt](https://github.com/mmrzaf/fastapi-sqlalchemy-jwt) | FastAPI boilerplate with SQLAlchemy and JWT authentication | Python |
-| [api-simple-auth-go](https://github.com/mmrzaf/api-simple-auth-go) | Simple authentication API in Go | Go |
-
-## Data Science and Machine Learning
-
-| Project | Description | Language |
-|---------|-------------|----------|
-| [OneMoreIteration](https://github.com/mmrzaf/OneMoreIteration) | Data science experiments and exploration of datasets and models | Jupyter Notebook |
-| [house_price_estimator](https://github.com/mmrzaf/house_price_estimator) | House price prediction model | Python |
-| [traffic_graph_GNN](https://github.com/mmrzaf/traffic_graph_GNN) | Traffic prediction using Graph Neural Networks | Python |
-| [Recommender_Service](https://github.com/mmrzaf/Recommender_Service) | Recommendation system service | Python |
-| [GWIM](https://github.com/mmrzaf/GWIM) | Grey Wolf Influence Maximization algorithm for social network analysis | Python |
-
-## Networking and Infrastructure
-
-| Project | Description | Language |
-|---------|-------------|----------|
-| [koocheh](https://github.com/mmrzaf/koocheh) | Lightweight, multi-user proxy router for smart traffic routing through local or tunneled paths | - |
-| [network_test_suite](https://github.com/mmrzaf/network_test_suite) | Network testing utilities | Go |
-
-## Developer Tools
-
-| Project | Description | Language |
-|---------|-------------|----------|
-| [LazyCargo](https://github.com/mmrzaf/LazyCargo) | Fast, minimal TUI for exploring and managing Rust projects using Cargo | - |
-| [unified_query_maker](https://github.com/mmrzaf/unified_query_maker) | Unified query builder across different data sources | Python |
-| [nvim](https://github.com/mmrzaf/nvim) | Neovim configuration | Lua |
-| [vim](https://github.com/mmrzaf/vim) | Vim/Neovim configuration | Lua |
-
-## Blockchain and Cryptocurrency
-
-| Project | Description | Language |
-|---------|-------------|----------|
-| [Blockchain](https://github.com/mmrzaf/Blockchain) | Blockchain implementation | Python |
-
-## Benchmarks and Research
-
-| Project | Description | Language |
-|---------|-------------|----------|
-| [benchmark_graph_databases](https://github.com/mmrzaf/benchmark_graph_databases) | Performance benchmarks for graph databases | Python |
-| [benchmark_graph_libraries](https://github.com/mmrzaf/benchmark_graph_libraries) | Performance benchmarks for graph libraries | Python |
-
-## Other Projects
-
-| Project | Description | Language |
-|---------|-------------|----------|
-| [FerriteMC](https://github.com/mmrzaf/FerriteMC) | Rust-powered Minecraft server with dynamic Lua scripting for world generation and gameplay | - |
-| [Job_scrapper](https://github.com/mmrzaf/Job_scrapper) | Job listing scraper | Python |
-| [CTF](https://github.com/mmrzaf/CTF) | Capture The Flag challenges and solutions | Python |
-| [web-template-projects](https://github.com/mmrzaf/web-template-projects) | Template projects for web development | Python |
+| Project                                                            | Description                                                                                       | Language |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- | -------- |
+| [FluxBench](https://github.com/mmrzaf/flux-bench)                  | Browser-based sandbox showing Advection–Dispersion–Reaction (ADR) transport using a Rust core     | Rust     |
+| [FluidSim](https://github.com/mmrzaf/FluidSim)                     | 2D fluid simulation implemented in Rust and compiled to WebAssembly with a browser UI             | Rust     |
+| [feaplusplus](https://github.com/mmrzaf/feaplusplus)               | High-performance Finite Element Analysis library for structural mechanics and related problems    | C++      |
+| [ConcretePlayground](https://github.com/mmrzaf/ConcretePlayground) | Web app that predicts concrete compressive strength using a TensorFlow.js model trained in Python | Python   |
 
 ---
 
-## Suggestions for Improvement
+## Web and Backend Development
 
-### Missing Project: LedgerOne
-The project "LedgerOne" was mentioned as a main project but does not appear in the public repositories. Consider:
-- Creating and publishing this repository if it exists privately
-- Updating the main projects list if this project has been renamed or merged
+| Project                                                                        | Description                                                                                                                                                       | Stack               |
+| ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| [TransportationPlatform](https://github.com/mmrzaf/TransportationPlatform)     | Microservices platform with location (Go + MongoDB + Kafka), trips (FastAPI + PostgreSQL), notifications (Node.js + Kafka), and users (Django + PostgreSQL + JWT) | Go, Python, Node.js |
+| [eCommerce](https://github.com/mmrzaf/eCommerce)                               | Full-stack e-commerce system with Django REST, Celery, RabbitMQ, PostgreSQL, Redis, and a React frontend                                                          | Python, React       |
+| [social_media](https://github.com/mmrzaf/social_media)                         | Social media backend with Django REST, Go WebSocket server, message broker, and supporting services                                                               | Python, Go          |
+| [api-fastapi-microservice](https://github.com/mmrzaf/api-fastapi-microservice) | FastAPI microservice template with a structured layout, testing setup, and Docker support                                                                         | Python              |
+| [fastapi-sqlalchemy-jwt](https://github.com/mmrzaf/fastapi-sqlalchemy-jwt)     | FastAPI boilerplate integrating SQLAlchemy, JWT authentication, and database migrations                                                                           | Python              |
+| [api-simple-auth-go](https://github.com/mmrzaf/api-simple-auth-go)             | Simple JWT-based authentication API implemented with Go’s standard HTTP stack                                                                                     | Go                  |
+| [unified_query_maker](https://github.com/mmrzaf/unified_query_maker)           | Prototype for unifying query construction and execution across different backends                                                                                 | Python              |
+| [web-template-projects](https://github.com/mmrzaf/web-template-projects)       | Template web projects and examples, including starter backends and a React JWT auth template                                                                      | Python / JavaScript |
 
-### Repository Descriptions to Add or Improve
-The following repositories lack descriptions and would benefit from adding them:
-- **unified_query_maker**: Add a description explaining its purpose and use cases
-- **Recommender_Service**: Describe the recommendation algorithms and API
-- **Job_scrapper**: Document which job boards are supported and the scraping capabilities
-- **network_test_suite**: Describe the types of network tests included
-- **CTF**: Mention the types of challenges covered
+---
 
-### Main Project Selection Recommendations
-Consider adding these notable projects to the main projects list:
-- **Koocheh**: Has community interest (1 star) and solves a practical networking problem
-- **FluidSim**: Demonstrates advanced Rust/WebAssembly skills with visual output
-- **TransportationPlatform**: Showcases full microservices architecture expertise
+## Data Science and Machine Learning
 
-### General Improvements
-- Add topics/tags to repositories for better discoverability
-- Include badges for build status, code coverage, and documentation
-- Add LICENSE files to repositories that are missing them
-- Create releases for mature projects to indicate stability
+| Project                                                                  | Description                                                                                            | Language                  |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------- |
+| [OneMoreIteration](https://github.com/mmrzaf/OneMoreIteration)           | Collection of data science and ML experiments across several datasets and models                       | Jupyter Notebook / Python |
+| [house_price_estimator](https://github.com/mmrzaf/house_price_estimator) | House price prediction model exposed through a Django-based web interface                              | Python                    |
+| [Recommender_Service](https://github.com/mmrzaf/Recommender_Service)     | Simple recommendation service focused on experimenting with recommendation logic and APIs              | Python                    |
+| [GWIM](https://github.com/mmrzaf/GWIM)                                   | Experimental Python project with its own docs and main script, used as a sandbox for algorithmic ideas | Python                    |
+| [Job_scrapper](https://github.com/mmrzaf/Job_scrapper)                   | Scraper for job listings from multiple sources, exporting data for downstream analysis                 | Python                    |
+
+---
+
+## Networking and Infrastructure
+
+| Project                                                            | Description                                                                                                     | Language |
+| ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- | -------- |
+| [Elrun](https://github.com/mmrzaf/elrun)                           | Single-binary CLI for fast, reliable data transfers between files, databases, and object storage                | Go       |
+| [Backgrounder](https://github.com/mmrzaf/backgrounder)             | Async background job system for Python and ML services, with queues, retries, and resource-aware workers        | Python   |
+| [koocheh](https://github.com/mmrzaf/koocheh)                       | Lightweight multi-user proxy router that routes traffic directly or through tunnels based on rules and policies | Go       |
+| [network_test_suite](https://github.com/mmrzaf/network_test_suite) | Suite for running repeatable network tests and collecting metrics                                               | Go       |
+
+---
+
+## Developer Tools and Environment
+
+| Project                                                                      | Description                                                             | Language |               |
+| ---------------------------------------------------------------------------- | ----------------------------------------------------------------------- | -------- | ------------- |
+| [LazyCargo](https://github.com/mmrzaf/LazyCargo)                             | Minimal TUI for exploring and managing Rust projects via Cargo          | Rust     |               |
+| [nvim](https://github.com/mmrzaf/nvim)                                       | Neovim configuration with Lua-based plugins and setup                   | Lua      |               |
+| [vim](https://github.com/mmrzaf/vim)                                         | Vim/Neovim configuration and related scripts                            | Lua      |               |
+| [Mohammadreza-Farkhondeh](https://github.com/mmrzaf/Mohammadreza-Farkhondeh) | Personal shell and editor configuration (aliases, VS Code, and tooling) | Shell    | ([GitHub][3]) |
+
+---
+
+## Graphs and Graph Databases
+
+| Project                                                                          | Description                                                                                       | Language |
+| -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | -------- |
+| [graphene](https://github.com/mmrzaf/graphene)                                   | Lightweight C library for graph representation and algorithms with efficient, low-level storage   | C        |
+| [benchmark_graph_databases](https://github.com/mmrzaf/benchmark_graph_databases) | Benchmark clients and scripts for comparing multiple graph databases under similar workloads      | Python   |
+| [benchmark_graph_libraries](https://github.com/mmrzaf/benchmark_graph_libraries) | Benchmark harness for multiple graph libraries with a common interface                            | Python   |
+| [pyorient](https://github.com/mmrzaf/pyorient)                                   | Fork of the OrientDB Python driver using the binary protocol, used for experiments and benchmarks | Python   |
+
+---
+
+## Other Projects
+
+| Project                                          | Description                                                                            | Language  |
+| ------------------------------------------------ | -------------------------------------------------------------------------------------- | --------- |
+| [FerriteMC](https://github.com/mmrzaf/FerriteMC) | Rust-based Minecraft server with Lua scripting for world generation and gameplay logic | Rust, Lua |
+| [CTF](https://github.com/mmrzaf/CTF)             | Small Django-based CTF platform used for web security and challenge-style exercises    | Python    |
+
+
