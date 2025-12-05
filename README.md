@@ -1,12 +1,8 @@
-# Projects
-
----
-
 ## Main Projects
 
 ### [CryptoPilot](https://github.com/mmrzaf/cryptopilot)
 
-CLI platform for cryptocurrency market analysis, portfolio insights, and reporting. Written in Python with a modular design for data pipelines, strategies, and outputs. ([GitHub][1])
+CLI platform for cryptocurrency market analysis, portfolio insights, and reporting. Written in Python with a modular design for data pipelines, strategies, and outputs.
 
 ### [LedgerOne](https://github.com/mmrzaf/ledgerone)
 
@@ -14,11 +10,11 @@ Ledger and accounting engine for digital assets, focused on clear balances, tran
 
 ### [Stratum](https://github.com/mmrzaf/stratum)
 
-Python interface library for building LLM-powered systems and pipelines, with a focus on type safety and clean separation between model calls, tools, and orchestration. ([GitHub][2])
+Python interface library for building LLM-powered systems and pipelines, with a focus on type safety and clean separation between model calls, tools, and orchestration.
 
 ### [Elrun](https://github.com/mmrzaf/elrun)
 
-Single-binary CLI written in Go for fast, reliable data transfers between databases, files, and object storage. Designed to be portable and dependency-light while handling real workloads. ([GitHub][1])
+Single-binary CLI written in Go for fast, reliable data transfers between databases, files, and object storage. Designed to be portable and dependency-light while handling real workloads.
 
 ---
 
