@@ -8,6 +8,10 @@ CLI platform for cryptocurrency market analysis, portfolio insights, and reporti
 
 Ledger and accounting engine for digital assets, focused on clear balances, transaction history, and portfolio views. Built with Flutter as a mobile-first application.
 
+### [Locutus](https://github.com/mmrzaf/locutus)
+
+LLM workspace with local-first retrieval and provider-agnostic adapters, designed as “one brain, many faces”
+
 ### [Stratum](https://github.com/mmrzaf/stratum)
 
 Python interface library for building LLM-powered systems and pipelines, with a focus on type safety and clean separation between model calls, tools, and orchestration.
