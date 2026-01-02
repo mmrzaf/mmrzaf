@@ -3,21 +3,21 @@
 A curated index of my public work. ⭐ marks the projects I actively care about / maintain.
 
 <details>
-<summary><b>Finance, Trading, and Ledgers</b></summary>
-
-- ⭐ [LedgerOne](https://github.com/mmrzaf/ledgerone) — Offline-first personal finance + crypto ledger; balances derived from transactions; optional manual price updates. (Flutter)  
-- ⭐ [CryptoPilot](https://github.com/mmrzaf/cryptopilot) — CLI-first crypto market analysis and portfolio tooling; modular strategies and reporting. (Python)  
-- [Blockchain](https://github.com/mmrzaf/Blockchain) — From-scratch blockchain implementation exploring blocks, transactions, and basic consensus. (Python)
-
-</details>
-
-<details>
 <summary><b>LLMs, AI Tooling, and Agents</b></summary>
 
 - ⭐ [Locutus](https://github.com/mmrzaf/locutus) — Local-first LLM workspace: retrieval + provider-agnostic adapters (“one brain, many faces”). (Python)  
 - ⭐ [Stratum](https://github.com/mmrzaf/stratum) — Interface library for building LLM applications with clean separation between calls, tools, and orchestration. (Python)  
 - [Neuron](https://github.com/mmrzaf/Neuron) — Experimental compiled, differentiable, tensor-native language for AI development. (Mixed / DSL)  
 - [traffic_graph_GNN](https://github.com/mmrzaf/traffic_graph_GNN) — Graph neural network experiments for traffic and road-network data. (Python)
+
+</details>
+
+<details>
+<summary><b>Finance, Trading, and Ledgers</b></summary>
+
+- ⭐ [LedgerOne](https://github.com/mmrzaf/ledgerone) — Offline-first personal finance + crypto ledger; balances derived from transactions; optional manual price updates. (Flutter)  
+- ⭐ [CryptoPilot](https://github.com/mmrzaf/cryptopilot) — CLI-first crypto market analysis and portfolio tooling; modular strategies and reporting. (Python)  
+- [Blockchain](https://github.com/mmrzaf/Blockchain) — From-scratch blockchain implementation exploring blocks, transactions, and basic consensus. (Python)
 
 </details>
 
