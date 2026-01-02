@@ -2,7 +2,7 @@
 
 A curated index of my public work. ⭐ marks the projects I actively care about / maintain.
 
-<details open>
+<details>
 <summary><b>Finance, Trading, and Ledgers</b></summary>
 
 - ⭐ [LedgerOne](https://github.com/mmrzaf/ledgerone) — Offline-first personal finance + crypto ledger; balances derived from transactions; optional manual price updates. (Flutter)  
