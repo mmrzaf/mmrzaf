@@ -1,12 +1,8 @@
-## Projects
-
----
-
 ## Primary Focus
 
 Real-world tools designed to remove operational friction and run reliably.
 
-<details>
+<details open>
 <summary><b>Operational Systems (Execution, Movement, Routing)</b></summary>
 
 * **[Elrun](https://github.com/mmrzaf/elrun)** — Single-binary CLI for reliable data transfers across databases, files, and object storage. (Go)
@@ -16,7 +12,7 @@ Real-world tools designed to remove operational friction and run reliably.
 
 </details>
 
-<details>
+<details open>
 <summary><b>Decision and Control Systems (Querying, Insight, Tooling)</b></summary>
 
 * **[unified_query_maker](https://github.com/mmrzaf/unified_query_maker)** — Structured UQL → translated queries across many backends (SQL, search, graph, etc.). (Python)
