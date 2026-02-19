@@ -101,7 +101,7 @@ Deterministic, CLI-first tools that remove operational friction and “work twic
 <details>
 <summary><b>Developer Environment</b></summary>
 
-* [dot-files](https://github.com/mmrzaf/dot-files) — Shell/editor configuration. (Shell)
+* [dotfiles](https://github.com/mmrzaf/dotfiles) — Shell/editor configuration. (Shell)
 * [nvim](https://github.com/mmrzaf/nvim) — Neovim config. (Lua)
 * [LazyCargo](https://github.com/mmrzaf/LazyCargo) — Minimal TUI for exploring/managing Rust projects via Cargo. (Rust)
 
