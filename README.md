@@ -11,7 +11,7 @@ Deterministic tools that remove operational friction.
 * **[Elrun](https://github.com/mmrzaf/elrun)** — Reliable data transfers across DB/files/object storage (CLI + small web UI). (Go)
 * **[SDGen](https://github.com/mmrzaf/sdgen)** — Deterministic synthetic data scenarios; versioned recipes; repeatable runs (CLI + small web UI). (Go)
 * **[Snip](https://github.com/mmrzaf/snip)** — Deterministic source snapshot bundler for predictable code-context exports (CLI). (Go)
-
+* **[Evolver](https://github.com/mmrzaf/evolver)** — evolve is a drop-in GitHub Action that makes a repository “self-evolve” on a schedule, in other words, its magic. (Go)
 * **[Riree](https://github.com/mmrzaf/riree)** — Self-hosted traffic relay concept (incubating; code not published yet) (CLI + Daemon). (Go)
 
 </details>
