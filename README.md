@@ -114,3 +114,15 @@ Deterministic tools that remove operational friction.
 * [CTF](https://github.com/mmrzaf/CTF) — Django-based CTF platform for web security exercises. (Python)
 
 </details>
+
+---
+
+## Evolved Projects
+
+Tools built using **[Evolver](https://github.com/mmrzaf/evolver)** — designed to continuously improve via small, deterministic, PR-driven evolution.
+
+These projects are intentionally opinionated, zero-config by default, and focused on removing operational friction rather than adding features.
+
+* **[evolved-commit](https://github.com/mmrzaf/evolved-commit)** — Enforces review-ready Git commits via safe hooks and fast, deterministic checks (commit messages, branches, diffs). (CLI, Go)  
+
+More evolved tools will appear here as the system expands.
