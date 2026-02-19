@@ -1,18 +1,18 @@
 ## Primary Focus
 
-Deterministic, CLI-first tools that remove operational friction and “work twice”.
+Deterministic tools that remove operational friction.
 
 <details open>
 <summary><b>Operational Systems (Execution, Movement, Routing)</b></summary>
 
-* **[backgrounder](https://github.com/mmrzaf/backgrounder)** — Minimal async background jobs for Python services (Celery is overkill). (Python)
-* **[unified_query_maker](https://github.com/mmrzaf/unified_query_maker)** — Structured UQL → translated queries across multiple backends. (Python)
+* **[backgrounder](https://github.com/mmrzaf/backgrounder)** — Minimal async background jobs for Python services (Lib). (Python)
+* **[unified_query_maker](https://github.com/mmrzaf/unified_query_maker)** — Structured UQL → translated queries across multiple backends (Lib). (Python)
 
 * **[Elrun](https://github.com/mmrzaf/elrun)** — Reliable data transfers across DB/files/object storage (CLI + small web UI). (Go)
 * **[SDGen](https://github.com/mmrzaf/sdgen)** — Deterministic synthetic data scenarios; versioned recipes; repeatable runs (CLI + small web UI). (Go)
-* **[Snip](https://github.com/mmrzaf/snip)** — Deterministic source snapshot bundler for predictable code-context exports. (Go)
+* **[Snip](https://github.com/mmrzaf/snip)** — Deterministic source snapshot bundler for predictable code-context exports (CLI). (Go)
 
-* **[Riree](https://github.com/mmrzaf/riree)** — Self-hosted traffic relay concept (incubating; code not published yet). (Go)
+* **[Riree](https://github.com/mmrzaf/riree)** — Self-hosted traffic relay concept (incubating; code not published yet) (CLI + Daemon). (Go)
 
 </details>
 
