@@ -14,11 +14,16 @@ Deterministic tools that remove operational friction.
 * **[Evolver](https://github.com/mmrzaf/evolver)** — evolve is a drop-in GitHub Action that makes a repository “self-evolve” on a schedule, in other words, its magic. (Go)
 * **[Riree](https://github.com/mmrzaf/riree)** — Self-hosted traffic relay concept (incubating; code not published yet) (CLI + Daemon). (Go)
 
+* **[onlytwo](https://github.com/mmrzaf/onlytwo)** — Browser‑based real‑time messenger designed exclusively for secure private conversations between exactly two people.
+
+* **[GitMan](https://github.com/mmrzaf/gitman)** — A lightweight, self‑hosted Git hosting service with enough ci/cd (Web UI). (Go)
 </details>
 
 <details open>
 <summary><b>Decision and Control Systems (Querying, Insight, Tooling)</b></summary>
 
+* **[netreach](https://github.com/mmrzaf/netreach)** — Command-line network measurement tool designed to provide layered observability (CLI). (Go)
+  
 * **[CryptoPilot](https://github.com/mmrzaf/cryptopilot)** — CLI crypto portfolio + market analysis; modular strategies and reporting. (Python)
 * **[LedgerOne](https://github.com/mmrzaf/ledgerone)** — Offline-first finance + crypto ledger; balances derived from transactions. (Flutter)
 * **[Locutus](https://github.com/mmrzaf/locutus)** — Local-first LLM workspace: retrieval + provider-agnostic adapters. (Go)
@@ -123,6 +128,6 @@ Tools built using **[Evolver](https://github.com/mmrzaf/evolver)** — designed 
 
 These projects are intentionally opinionated, zero-config by default, and focused on removing operational friction rather than adding features.
 
-* **[evolved-commit](https://github.com/mmrzaf/evolved-commit)** — Enforces review-ready Git commits via safe hooks and fast, deterministic checks (commit messages, branches, diffs). (CLI, Go)  
+* **[evolved-commit](https://github.com/mmrzaf/evolved-commit)** — Enforces review-ready Git commits via safe hooks and fast, deterministic checks (commit messages, branches, diffs). (CLI, Go)  
 
 More evolved tools will appear here as the system expands.
