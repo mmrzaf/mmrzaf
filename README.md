@@ -5,6 +5,10 @@ Deterministic tools that remove operational friction.
 <details open>
 <summary><b>Operational Systems (Execution, Movement, Routing)</b></summary>
 
+
+* **[Statika](https://github.com/mmrzaf/statika)** — A minimal, deterministic static file server optimized for serving Single Page Applications. (Rust)
+* **[GitMan](https://github.com/mmrzaf/gitman)** — A lightweight, self‑hosted Git hosting service with enough ci/cd (Web UI). (Go)
+
 * **[backgrounder](https://github.com/mmrzaf/backgrounder)** — Minimal async background jobs for Python services (Lib). (Python)
 * **[unified_query_maker](https://github.com/mmrzaf/unified_query_maker)** — Structured UQL → translated queries across multiple backends (Lib). (Python)
 
@@ -16,8 +20,8 @@ Deterministic tools that remove operational friction.
 
 * **[onlytwo](https://github.com/mmrzaf/onlytwo)** — Browser‑based real‑time messenger designed exclusively for secure private conversations between exactly two people.
 
-* **[GitMan](https://github.com/mmrzaf/gitman)** — A lightweight, self‑hosted Git hosting service with enough ci/cd (Web UI). (Go)
 </details>
+
 
 <details open>
 <summary><b>Decision and Control Systems (Querying, Insight, Tooling)</b></summary>
