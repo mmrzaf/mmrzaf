@@ -26,8 +26,11 @@ Deterministic tools that remove operational friction.
 <details open>
 <summary><b>Decision and Control Systems (Querying, Insight, Tooling)</b></summary>
 
+* **[netpath](https://github.com/mmrzaf/netrpath)** — Distributed network diagnostics tool for analyzing connectivity, transport behavior, and path characteristics (CLI). (Go)
 * **[netreach](https://github.com/mmrzaf/netreach)** — Command-line network measurement tool designed to provide layered observability (CLI). (Go)
-  
+* **[net-tools](https://github.com/mmrzaf/net-tools)** — Collection of smaller infra, network, devops tools and scripts (CLI). (python)
+
+  
 * **[CryptoPilot](https://github.com/mmrzaf/cryptopilot)** — CLI crypto portfolio + market analysis; modular strategies and reporting. (Python)
 * **[LedgerOne](https://github.com/mmrzaf/ledgerone)** — Offline-first finance + crypto ledger; balances derived from transactions. (Flutter)
 * **[Locutus](https://github.com/mmrzaf/locutus)** — Local-first LLM workspace: retrieval + provider-agnostic adapters. (Go)
