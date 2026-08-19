@@ -10,6 +10,8 @@ Every piece below exists to make an entire working environment predictable—fro
 
 * **[Aurum](https://github.com/mmrzaf/aurum)** — Digital asset trading backend with deterministic matching, ledgering, settlement, and blockchain reconciliation. (Rust/Go)
 
+* **[Cerv](https://github.com/mmrzaf/cerv)** — Cerv is a small, bounded Linux HTTP file server. (C)
+
 * **[Statika](https://github.com/mmrzaf/statika)** — Deterministic static file serving for SPAs. (Rust)
 
 * **[Snip](https://github.com/mmrzaf/snip)** — Deterministic source snapshots for reproducible context. (Go)
